@@ -1,0 +1,53 @@
+.apply-join-bz-container {
+  position: relative;
+  margin-left: 20px;
+
+  .bz-item {
+    position: relative;
+    margin-bottom: 16px;
+
+    .bz-item-label {
+      display: inline-block;
+      vertical-align: middle;
+      width: 120px;
+
+      .item-import {
+        color: red;
+      }
+
+      .item-key {
+        margin-left: 5px;
+      }
+
+      &.v-top {
+        vertical-align: top;
+      }
+    }
+
+    .bz-item-value {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .bz-item-select {
+
+    }
+
+    .role-tips {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    .bz-item-comment {
+      width: 300px;
+      height: 80px;
+      resize: none;
+      padding: 5px;
+      border-color: rgba(0, 0, 0, .4);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.bzapp-info-view-container {
+
+  .bz-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .item-import-tag {
+      color: red;
+      display: inline-flex;
+      width: 12px;
+      margin-right: 5px;
+    }
+
+    .item-label {
+      display: inline-flex;
+      width: 140px;
+    }
+
+    .item-value-container {
+      display: inline-block;
+      width: 400px;
+      position: relative;
+      text-align: left;
+
+      .item-input {
+
+        &.error {
+          border-color: red;
+        }
+      }
+
+      .item-textarea {
+        resize: none;
+
+        &.error {
+          border-color: red;
+        }
+      }
+      .item-error-tip {
+        position: absolute;
+        left: 400px;
+        overflow: visible;
+        float: right;
+        word-break: keep-all;
+        color: red;
+        margin-left: 20px;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.search-input-view-container {
+  position: relative;
+
+  .search-input {
+    &-label {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+
+    &-input {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+
+    &-btn {
+      vertical-align: middle;
+    }
+  }
+}

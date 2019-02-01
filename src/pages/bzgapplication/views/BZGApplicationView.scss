@@ -1,0 +1,52 @@
+.bz-application-view-container {
+  margin-top: 32px;
+
+  .steps {
+    &-status-container {
+      margin-top: 20px;
+    }
+
+    &-content-container {
+      margin-top: 20px;
+      border: 1px dashed #e9e9e9;
+      border-radius: 6px;
+      background-color: #fafafa;
+      min-height: 200px;
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    &-action-container {
+      margin-top: 20px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .steps-btn {
+        &-pre {
+          margin-right: 120px;
+        }
+
+        &-next {
+
+        }
+
+        &-submit {
+        }
+      }
+    }
+  }
+}
+
+.steps-content {
+  margin-top: 10px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 6px;
+  background-color: #fafafa;
+  min-height: 200px;
+  padding-top: 0px;
+}
+.steps-action {
+  margin-top: 24px;
+}

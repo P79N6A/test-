@@ -1,0 +1,32 @@
+.table-options-container {
+  position: relative;
+
+  .bz-project {
+    &-label {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+    &-select {
+      vertical-align: middle;
+      margin-right: 140px;
+      width: 180px;
+    }
+  }
+
+  .bz-keywords {
+    &-label {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+
+    &-input {
+      vertical-align: middle;
+      margin-right: 20px;
+      width: 180px;
+    }
+
+    &-btn {
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.bzg-info-view-container {
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.65);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  clear: both;
+
+  .bzg-info-view {
+    &-title  {
+      position: relative;
+      border: 1px solid #e8e8e8;
+      padding: 16px;
+      top: 1px;
+      border-radius: 4px 4px 0 0;
+      background-color: #fafafa;
+      color: rgba(0,0,0,0.85);
+      font-weight: 500;
+    }
+
+    &-items {
+      position: relative;
+      border: 1px solid #e8e8e8;
+      border-radius: 0;
+      border-top: none;
+
+      &:last-child {
+        border-radius: 0 0 4px 4px;
+      }
+    }
+
+    &-item {
+      display: inline-block;
+      vertical-align: middle;
+      height: 55px;
+      padding: 16px;
+      border-right: 1px solid #e8e8e8;
+      overflow: hidden;
+
+      .bzg-info-view {
+        &-label {
+          position: relative;
+        }
+
+        &-value {
+          position: relative;
+          color: rgba(0,0,0,0.85);
+        }
+      }
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+.header-container {
+  .app-logo {
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    vertical-align: middle;
+    background: url('../../../asserts/app_logo.png') 0 0 / auto 100% no-repeat;
+  }
+  .app-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+}
+
+.app-nav-menu .ant-menu-vertical.ant-menu-sub {
+  min-width: 140px;
+}
+
+.app-login .ant-menu-sub {
+  min-width: 120px;
+}

@@ -1,0 +1,32 @@
+.page-title {
+  .bzg-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+  .bzg-back {
+    margin-left: 16px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.group-opts-container {
+  margin-top: 40px;
+  margin-left: 338px;
+  position: relative;
+
+  .group-reset-btn {
+    margin-right: 20px;
+  }
+
+  .group-submit-btn {
+
+  }
+
+  .group-submit-btn-info {
+    display: inline-block;
+    color: #949494;
+    margin-left: 20px;
+  }
+}

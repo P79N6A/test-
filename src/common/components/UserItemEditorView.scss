@@ -1,0 +1,39 @@
+.user-item-edit-container {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  .user-item-edit {
+    &-label {
+      vertical-align: top;
+      align-self: flex-start;
+
+      .item-import {
+        display: inline-block;
+        width: 10px;
+        color: red;
+        vertical-align: middle;
+      }
+
+      .item-key {
+        display: inline-block;
+        width: 100px;
+        vertical-align: middle;
+      }
+    }
+
+    &-value {
+
+    }
+
+    &-info {
+      color: #949494;
+      margin-left: 20px;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
